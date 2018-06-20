@@ -1,11 +1,6 @@
-[![Build Status](https://travis-ci.org/DamageStudios/rims.png?branch=master)](https://travis-ci.org/DamageStudios/rims)
-[![Coverage Status](https://coveralls.io/repos/DamageStudios/rims/badge.png)](https://coveralls.io/r/DamageStudios/rims)
-[![Dependency Status](https://gemnasium.com/DamageStudios/rims.png)](https://gemnasium.com/DamageStudios/rims)
-[![Code Climate](https://codeclimate.com/github/DamageStudios/rims.png)](https://codeclimate.com/github/DamageStudios/rims)
+### Rails Inventory System for Portable Franchise.
 
-### Rails Inventory Management System (RIMS).
-
-RIMS is an Open Source Inventory Management System designed primarily to keep track of electronic parts and components. It will allow you to keep track of your available parts and assist you with re-ordering parts.
+It is an Open Source Inventory Management System designed primarily to keep track of a Mobile Phone company franchise. It will allow you to keep track of your available resources.
 
 ### Project Status
 This project is currently in an early alpha stage. Code quality is improving constantly. However, this project is not ready for production yet.
