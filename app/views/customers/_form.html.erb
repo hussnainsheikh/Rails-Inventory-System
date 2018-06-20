@@ -1,0 +1,45 @@
+<div class="form-horizontal">
+  <%= form_for(@customer) do |f| %>
+    <% if @customer.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@customer.errors.count, "error") %> prohibited this customer from being saved:</h2>
+
+        <ul>
+        <% @customer.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div class="form-group">
+      <%= f.label :name, class: "col-sm-3 control-label" %>
+      <div class="col-sm-5">
+        <%= f.text_field :name, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :cnic, class: "col-sm-3 control-label" %>
+      <div class="col-sm-5">
+        <%= f.text_field :cnic, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :address, class: "col-sm-3 control-label" %>
+      <div class="col-sm-5">
+        <%= f.text_field :address, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :phone, class: "col-sm-3 control-label" %>
+      <div class="col-sm-5">
+        <%= f.text_field :phone, class: "form-control" %>
+      </div>
+    </div>
+</div>
+  <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-5">
+      <%= f.submit "Done", class: "btn btn-primary" %>
+      <%= link_to 'Cancel', customers_path, :class => "btn btn-danger" %>
+    </div>
+  </div>
+<% end %>

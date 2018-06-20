@@ -1,0 +1,12 @@
+language: ruby
+script: 'bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rspec spec/'
+rvm:
+  - 2.0.0
+env:
+notifications:
+  email:
+    fusion94@gmail.com
+# whitelist
+branches:
+  only:
+    - master
