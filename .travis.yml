@@ -5,7 +5,7 @@ rvm:
 env:
 notifications:
   email:
-    fusion94@gmail.com
+    sheikhhussnain23@gmail.com
 # whitelist
 branches:
   only:
